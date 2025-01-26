@@ -71,7 +71,7 @@ def render_main_menu(screen, font_title, font_text, selected_game, games):
     pygame.display.flip()
 
 # Função para renderizar o menu do jogo
-def render_game_menu(screen, selected_game):
+def render_game_menu(screen, selected_game, font_text):
     if selected_game == 0:
         return QUESTION, 0, False
     else:
@@ -234,7 +234,7 @@ def main():
                     elif event.key == pygame.K_DOWN:
                         selected_game = (selected_game + 1) % len(games)
                     elif event.key == pygame.K_RETURN:
-                        current_state, current_question, question_displayed = render_game_menu(screen, selected_game)
+                        current_state, current_question, question_displayed = render_game_menu(screen, selected_game, font_text)
                 elif current_state == QUESTION:
                     if event.key == pygame.K_UP:
                         selected_choice = (selected_choice - 1) % len(questions[current_question]["choices"])
