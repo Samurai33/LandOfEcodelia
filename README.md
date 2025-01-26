@@ -1,7 +1,3 @@
-Aqui está a versão revisada com os títulos apenas em inglês, mas mantendo os textos em ambos os idiomas e com emojis:
-
----
-
 ### **🌌 Land of Ecodelia: A Psychedelic and Intriguing Adventure**
 
 **Land of Ecodelia** is a narrative game inspired by retro aesthetics and the universe presented in episode 11 of the second season of *Mr. Robot*. This recreation combines moral choices, psychological dilemmas, and a visual experience reminiscent of games from the 80s and 90s.
@@ -128,5 +124,3 @@ This project is a fictional recreation and is not officially affiliated with the
 Este projeto é uma recriação fictícia e não é afiliado oficialmente à série *Mr. Robot*. Todos os direitos sobre o conceito original pertencem aos seus respectivos criadores.
 
 ---
-
-Se precisar de mais alterações, é só pedir!
